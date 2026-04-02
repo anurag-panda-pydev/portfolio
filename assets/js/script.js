@@ -61,7 +61,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Anurag Panda";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -73,7 +73,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["ECE Student", "Electronics Enthusiast", "IoT Developer", "Arduino Programmer", "Embedded Systems Developer"],
+    strings: ["CSE Student", "Python Developer", "App Developer", "Backend Developer", "Arduino Programmer", "IoT Enthusiast"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -164,13 +164,13 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 
 
 // pre loader start
-// function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
-// }
-// function fadeOut() {
-//     setInterval(loader, 500);
-// }
-// window.onload = fadeOut;
+ function loader() {
+     document.querySelector('.loader-container').classList.add('fade-out');
+ }
+ function fadeOut() {
+     setInterval(loader, 500);
+ }
+window.onload = fadeOut;
 // pre loader end
 
 // disable developer mode
@@ -206,7 +206,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='https://embed.tawk.to/69c8c344ecf7021c36680056/1jks3lhdo';
+s1.src='https://embed.tawk.to/69ceb429c4f63c1c36d273ea/1jl7mvgt7';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
