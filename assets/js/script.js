@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    document.querySelector('.loader-container').style.display = 'none';
 
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
