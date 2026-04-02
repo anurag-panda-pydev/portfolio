@@ -140,7 +140,8 @@ function showProjects(projects) {
         origin: 'top',
         distance: '80px',
         duration: 1000,
-        reset: true
+        easing: 'ease-in-out',
+        reset: false
     });
 
     /* SCROLL PROJECTS */
@@ -219,6 +220,7 @@ const srtop = ScrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 1000,
+    easing: 'ease-in-out',
     reset: false
 });
 
@@ -244,22 +246,22 @@ srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
 
 /* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+srtop.reveal('.skills .container');
+srtop.reveal('.skills .container .bar');
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
+srtop.reveal('.education .box');
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box', { interval: 200 });
+srtop.reveal('.work .box');
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+srtop.reveal('.experience .timeline');
+srtop.reveal('.experience .timeline .container');
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });
+srtop.reveal('.contact .container');
+srtop.reveal('.contact .container .form-group');
 
 
 
